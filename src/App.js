@@ -1,7 +1,11 @@
 import './App.css';
 
 function App() {
-  return <div className='App'></div>;
+  return (
+    <a href='#to-do' className='action'>
+      Sobre
+    </a>
+  );
 }
 
 export default App;
